@@ -1,0 +1,18 @@
+package demoPackage;
+public class mathOperators {
+    public Double addTwoNumbers(Double a, Double b) {   
+        Double sum = 0.0;
+        sum = a + b;    
+        return sum;
+    }
+    public Double subtractTwoNumbers(Double a, Double b) {  
+        Double difference = 0.0;
+        difference = a - b; 
+        return difference;
+    }
+    public Double multiplyTwoNumbers(Double a, Double b) {  
+        Double product = 0.0;
+        product = a * b;    
+        return product;
+    }
+}
