@@ -1,0 +1,25 @@
+package demoPackage;
+public class mathOperatorsSTATIC {
+    static Double a;
+    static Double b;
+    public static Double addTwoNumbers() {  
+        Double sum = 0.0;
+        sum = a + b;    
+        return sum;
+    }
+    public static Double subtractTwoNumbers() { 
+        Double difference = 0.0;
+        difference = a - b; 
+        return difference;
+    }
+    public static Double multiplyTwoNumbers() { 
+        Double product = 0.0;
+        product = a * b;    
+        return product;
+    }
+    public static Double addTwoNumbers_handle_new_values() {    
+        Double sum = 0.0;
+        sum = a + b;    
+        return sum;
+    }
+}
