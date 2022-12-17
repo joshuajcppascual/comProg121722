@@ -1,0 +1,14 @@
+package demoPackage;
+import java.util.Scanner;
+import javax.xml.ws.http.HTTPException;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Iterator;
+public class currentExample {
+    public static void main(String[] args) {
+        mathOperators _mathOps = new mathOperators();
+        System.out.println(_mathOps.addTwoNumbers(20.0, 15.0));
+        System.out.println(_mathOps.subtractTwoNumbers(20.0, 15.0));
+        System.out.println(_mathOps.multiplyTwoNumbers(20.0, 15.0));
+    }   
+}
